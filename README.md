@@ -8,7 +8,7 @@ The structure used here is not necessarily what you'd like to work with, but it 
 
 # Contributing
 
-I'm fairly happy with what this package exports and the format it exports it in, however if you have a suggestion for stricter types, supplementary exports or anything else, feel free to make an issue or a PR.
+I'm fairly happy with what this package exports and the format it exports it in, however if you have a suggestion for stricter types, supplementary exports or anything else, feel free to make an issue or a PR. Generated files are committed, so don't minify.
 
 Some low hanging fruit:
 
