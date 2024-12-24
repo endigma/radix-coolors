@@ -1,15 +1,28 @@
 {
   "name": "radix-coolers",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A reformatted version of the radix-ui/colors package for easier use in JavaScript projects",
   "scripts": {
     "build": "rollup --config",
     "release": "bumpp --commit --push --tag"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "endigma <endigma@mailcat.ca>",
+  "license": "MIT",
+  "module": "./dist/index.mjs",
+  "types": "./dist/types/index.d.ts",
+  "exports": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endigma/radix-coolors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/endigma/radix-coolors/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "packageManager": "pnpm@9.13.0",
   "devDependencies": {
     "@radix-ui/colors": "^3.0.0",
     "@rollup/plugin-typescript": "^12.1.2",
